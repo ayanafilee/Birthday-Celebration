@@ -5,10 +5,19 @@
 }
 body {
   min-height: 100vh;
-  background: url(back3.jpg!d) no-repeat;
+  background: url(back3.jpg) no-repeat;
   background-size: cover;
   background-position: center;
+  font-size: 62.5%;
 }
+h1 {
+  color: white; /* Matches your theme */
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 150px; /* Prevents overlap with the header */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a nice glow */
+}
+
 .header {
   position: fixed;
   top: 0;
